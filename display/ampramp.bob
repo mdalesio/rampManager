@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Display</name>
+  <width>600</width>
+  <height>450</height>
+  <widget type="databrowser" version="2.0.0">
+    <name>Data Browser</name>
+    <file>dbAmplifier.plt</file>
+    <x>10</x>
+    <y>10</y>
+    <width>570</width>
+    <height>380</height>
+  </widget>
+</display>
