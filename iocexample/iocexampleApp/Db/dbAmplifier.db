@@ -1,0 +1,87 @@
+record(bo, "status")
+{
+	field(VAL, 1)
+	field(UDF, 1)
+	field(ZNAM, "ramp down")
+	field(ONAM, "running")
+	field(SCAN, "Passive")
+}
+
+record(calc, "eventcount") 
+{
+	field(VAL, 1)
+	field(UDF,1)
+	field(CALC, "(A>99)?1:A+1")
+	field(INPA, "eventcount NPP")
+	field(SCAN, "1 second")
+}
+
+record(ao, "amplifier1")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier2")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier3")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier4")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier5")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier6")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier7")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier8")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier9")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}
+
+record(ao, "amplifier10")
+{
+	field(VAL, 1.0)
+	field(UDF,1)
+	field(SCAN, "Passive")
+}

@@ -1,0 +1,3 @@
+epicsEnvSet("IOC","iocexample")
+epicsEnvSet("TOP","/home/user/pythonLibrary/rampManager/iocexample")
+epicsEnvSet("EPICS_BASE","/home/user/build-epics/epics-base")
